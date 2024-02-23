@@ -17,17 +17,19 @@ from time import sleep
         # "p@ssw0rd",
         # "Senha"]
 
-# Função para validar se a senha atende aos requisitos
+# Início função para validar se a senha atende aos requisitos
 
 def validar_senha(senha):
-    padrao = r'^(?=.*[a-z])(?=.*[A-Z])()(?=.*[!@#$%]).{8,}$'    
+    padraoRegex = r'^(?=.*[a-z])(?=.*[A-Z])()(?=.*[!@#$%]).{8,}$'    # Expressão regular para verificar a senha
         
-    if re.match(padrao, senha):
+    if re.match(padraoRegex, senha): # Metódo que verifica se a senha atende a expressão padrão
         return True
     else:
         return False
+    # Término da função
 
-# Programa Principal
+
+# Início da função main(Programa Principal)
 
 def main():
     print('-' * 45)
@@ -38,14 +40,16 @@ def main():
 1. Deve ter pelo menos 8 caracteres.
 2. Deve conter pelo menos uma letra maiúscula e uma letra minúscula.
 3. Deve conter pelo menos um caractere especial (considere apenas esses: ! @ # $ %).""")
-    while True: #Terror do Santi
+    while True: # Loop infinito para digitar a senha até ela corresponder ao padrão
         senha = input("\033[36mDigite uma senha: \033[m ")
         if validar_senha(senha):
-            print("Arrasou menó")
+            print("A sua senha é ótima! Utilize-a: {senha}")
             sleep(2)
             break
         else:
-            print(f'A sua senha é ótima! Utilize-a: {senha}')         
+            print(f'A senha não atende aos requisitos, tente novamente!')         
+    # Término da função
 
 
+# Chamada do método main
 main()
