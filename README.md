@@ -1,4 +1,3 @@
-
 # Analisador de senhas
 ![Logo](https://th.bing.com/th/id/OIP.1FlGytJNtqA4hVw-1kpVbAAAAA?rs=1&pid=ImgDetMain)
 
@@ -26,3 +25,8 @@ Tudo pronto! Agora é só abrir seu repositório e depois clicar no arquivo "cri
 ![repositório](https://uploaddeimagens.com.br/images/004/746/173/original/Captura_de_tela_2024-02-23_084158.png?1708688937)
 
 ![arquivo](https://uploaddeimagens.com.br/images/004/746/174/original/Captura_de_tela_2024-02-23_084904.png?1708688992)
+
+#### Colaboradores
+- Olivia Farias
+- Sofia Domingues
+- Letícia Pitta
