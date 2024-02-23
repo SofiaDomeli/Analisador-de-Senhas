@@ -1,5 +1,6 @@
+
 # Analisador de senhas
-![Logo](https://th.bing.com/th/id/OIP.1FlGytJNtqA4hVw-1kpVbAAAAA?rs=1&pid=ImgDetMain)
+![Logo](https://th.bing.com/th/id/OIP.gTHWGcaPQnJpubYJh2eV1QAAAA?w=313&h=313&rs=1&pid=ImgDetMain)
 
 ## Objetivo
 Esse projeto avalia se a sua senha está de acordo com os padrões certos. Alguns desses requisitos são: a senha deve ter pelo menos 8 caracteres, deve conter pelo menos uma letra minúscula e uma maiúscula e deve ter caracteres especiais. Esse projeto tem o objetivo de realizar a prática de devOps.
