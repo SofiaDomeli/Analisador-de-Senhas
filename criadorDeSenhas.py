@@ -41,11 +41,11 @@ def main():
     while True: #Terror do Santi
         senha = input("\033[36mDigite uma senha: \033[m ")
         if validar_senha(senha):
-            print("Arrasou menó")
+            print(f"A sua senha é ótima! Utilize-a: {senha}")
             sleep(2)
             break
         else:
-            print(f'A sua senha é ótima! Utilize-a: {senha}')         
+            print(f'Tente novamente.')         
 
 
 main()
